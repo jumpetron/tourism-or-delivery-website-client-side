@@ -1,12 +1,15 @@
 /* book container style sheet */
 .book-container{
-    background-color: gainsboro;
     padding: 10px;
     margin-top: 15px;
     border-radius: 10px;
 }
 .book-img{
-    width: 300px;
+    width: 400px;
     height: 250px;
     border-radius: 10px;
+}
+
+.booking-main{
+    height: 378px;
 }

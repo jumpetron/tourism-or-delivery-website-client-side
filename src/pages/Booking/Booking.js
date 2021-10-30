@@ -12,8 +12,8 @@ const Booking = () => {
     return (
       <div className="main">
         <div className="my-5">
-          <h6>JOURNEY</h6>
-          <h1>Your Journey Starts Here</h1>
+          <h6 className="text-danger text-center">JOURNEY</h6>
+          <h1 className="text-center">Your Journey Starts Here</h1>
         </div>
         <div className="d-flex justify-content-center">
           <div className="booking-container">

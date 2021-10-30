@@ -6,6 +6,9 @@ import Header from './pages/Header/Header';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from './pages/Login/Login';
 import AuthProvider from './context/AuthProvider';
+import Error from "./pages/Error/Error";
+import BookingProcess from './pages/BookingProcess/BookingProcess';
+import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 
 
 function App() {
@@ -21,8 +24,14 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
+            <PrivateRoute path="/books/process/:id">
+              <BookingProcess></BookingProcess>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="*">
+              <Error></Error>
             </Route>
           </Switch>
           <Footer></Footer>
