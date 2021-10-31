@@ -4,7 +4,7 @@
 
 
 ##Explore The Best Parts of The World
-Gateway to the most desirable places in the world. Including Dubai, Malaysia, Paris, Greece, Bali, and more. 
+<li>Gateway to the most desirable places in the world. Including Dubai, Malaysia, Paris, Greece, Bali, and more.</li> 
 
 ##Unleash The Unseen 
 <li>A new place is like a teaser box! Apart from merely roaming around the overrated crowded places, explore the unseen beauty of every place with us.</li> 
